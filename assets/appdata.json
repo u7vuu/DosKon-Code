@@ -1,1 +1,830 @@
-x
+{
+  "grid-penicillins": [
+    {
+      "name_html": "Amoxicillin",
+      "chip": "Penicillin",
+      "dose_line_html": "<b>40–45 mg/kg/day</b> — mild to infection  ·  <b>80–90 mg/kg/day</b> — severe infection",
+      "style": "--accent:var(--teal); --tint:var(--teal-tint);",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.5,
+          "freq": 3,
+          "label_html": "125 mg / 5 mL",
+          "freq_tag": "×3/day"
+        },
+        {
+          "factor": 0.25,
+          "freq": 3,
+          "label_html": "250 mg / 5 mL",
+          "freq_tag": "×3/day"
+        }
+      ]
+    },
+    {
+      "name_html": "Amoxicillin/Clavulanic acid",
+      "generic": "Augmentin®",
+      "chip": "Penicillin",
+      "dose_line_html": "<b>4:1</b> — 20–40 mg(amox)/kg/day divided q8hr.<br/>\n<b>7:1</b> — 25–45 mg(amox)/kg/day divided q12hr.<br/>\n<b>14:1</b> — 90 mg(amox)/kg/day  divided q12hr.",
+      "style": "--accent:var(--teal); --tint:var(--teal-tint);",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.25,
+          "freq": 3,
+          "label_html": "156 mg / 5 mL",
+          "freq_tag": "×3/day"
+        },
+        {
+          "factor": 0.15,
+          "freq": 3,
+          "label_html": "312 mg / 5 mL",
+          "freq_tag": "×3/day"
+        },
+        {
+          "factor": 0.2,
+          "freq": 2,
+          "label_html": "457 mg / 5 mL <span style=\"color:var(--red)\">BID</span>",
+          "freq_tag": "×2/day"
+        },
+        {
+          "factor": 0.35,
+          "freq": 2,
+          "label_html": "642 mg / 5 mL <span style=\"color:var(--red)\">BID</span> · <i>High dose regimen</i>",
+          "freq_tag": "×2/day"
+        }
+      ]
+    }
+  ],
+  "grid-cephalosporins": [
+    {
+      "name_html": "Cephalexin <span class=\"gen-dots\"><i class=\"on\"></i><i></i><i></i></span>",
+      "generic": "Keflex®",
+      "chip": "1st Gen",
+      "dose_line_html": "<b>25–50 mg/kg/day</b> divided q6–8–12hr",
+      "style": "--accent:var(--amber); --tint:var(--amber-tint);",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.4,
+          "freq": 4,
+          "label_html": "125 mg / 5 mL",
+          "freq_tag": "×4/day"
+        },
+        {
+          "factor": 0.2,
+          "freq": 4,
+          "label_html": "250 mg / 5 mL",
+          "freq_tag": "×4/day"
+        }
+      ]
+    },
+    {
+      "name_html": "Cefadroxil <span class=\"gen-dots\"><i class=\"on\"></i><i></i><i></i></span>",
+      "generic": "Roxil®",
+      "chip": "1st Gen",
+      "dose_line_html": "<b>30 mg/kg/day</b> divided q12hr, for 10 days",
+      "style": "--accent:var(--amber); --tint:var(--amber-tint);",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.3,
+          "freq": 2,
+          "label_html": "250 mg / 5 mL",
+          "freq_tag": "×2/day"
+        }
+      ]
+    },
+    {
+      "name_html": "Cefaclor <span class=\"gen-dots\"><i class=\"on\"></i><i class=\"on\"></i><i></i></span>",
+      "chip": "2nd Gen",
+      "dose_line_html": "<b>20–40 mg/kg/day</b> divided q8–12hr",
+      "style": "--accent:var(--amber); --tint:var(--amber-tint);",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.6,
+          "freq": 2,
+          "label_html": "125 mg / 5 mL",
+          "freq_tag": "×2/day"
+        },
+        {
+          "factor": 0.3,
+          "freq": 2,
+          "label_html": "250 mg / 5 mL",
+          "freq_tag": "×2/day"
+        },
+        {
+          "factor": 0.2,
+          "freq": 2,
+          "label_html": "375 mg / 5 mL",
+          "freq_tag": "×2/day"
+        }
+      ]
+    },
+    {
+      "name_html": "Cefuroxime <span class=\"gen-dots\"><i class=\"on\"></i><i class=\"on\"></i><i></i></span>",
+      "chip": "2nd Gen",
+      "dose_line_html": "<b>30 mg/kg/day</b> divided q12hr",
+      "style": "--accent:var(--amber); --tint:var(--amber-tint);",
+      "warn": "⚠ Not before 3 months",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.6,
+          "freq": 2,
+          "label_html": "125 mg / 5 mL",
+          "freq_tag": "×2/day"
+        },
+        {
+          "factor": 0.3,
+          "freq": 2,
+          "label_html": "250 mg / 5 mL",
+          "freq_tag": "×2/day"
+        }
+      ]
+    },
+    {
+      "name_html": "Cefdinir <span class=\"gen-dots\"><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i></span>",
+      "chip": "3rd Gen",
+      "dose_line_html": "<b>14 mg/kg/day</b> divided q12–24hr, for 5–10 days",
+      "style": "--accent:var(--amber); --tint:var(--amber-tint);",
+      "warn": "⚠ Not before 6 months",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.56,
+          "freq": 1,
+          "label_html": "125 mg / 5 mL",
+          "freq_tag": "q24h"
+        },
+        {
+          "factor": 0.28,
+          "freq": 2,
+          "label_html": "125 mg / 5 mL",
+          "freq_tag": "×2/day"
+        }
+      ]
+    },
+    {
+      "name_html": "Cefixime <span class=\"gen-dots\"><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i></span>",
+      "chip": "3rd Gen",
+      "dose_line_html": "<b>8 mg/kg/day</b> divided q12–24hr, for 7–10 days",
+      "style": "--accent:var(--amber); --tint:var(--amber-tint);",
+      "warn": "⚠ Not before 6 months",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.4,
+          "freq": 1,
+          "label_html": "100 mg / 5 mL",
+          "freq_tag": "q24h"
+        },
+        {
+          "factor": 0.2,
+          "freq": 2,
+          "label_html": "100 mg / 5 mL",
+          "freq_tag": "×2/day"
+        }
+      ]
+    },
+    {
+      "name_html": "Cefpodoxime <span class=\"gen-dots\"><i class=\"on\"></i><i class=\"on\"></i><i class=\"on\"></i></span>",
+      "chip": "3rd Gen",
+      "dose_line_html": "<b>10 mg/kg/day</b> divided q12hr",
+      "style": "--accent:var(--amber); --tint:var(--amber-tint);",
+      "warn": "⚠ Not before 2 months",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.5,
+          "freq": 2,
+          "label_html": "50 mg / 5 mL",
+          "freq_tag": "×2/day"
+        },
+        {
+          "factor": 0.25,
+          "freq": 2,
+          "label_html": "100 mg / 5 mL",
+          "freq_tag": "×2/day"
+        }
+      ]
+    }
+  ],
+  "grid-macrolides": [
+    {
+      "name_html": "Azithromycin",
+      "chip": "Macrolide",
+      "dose_line_html": "<b>5–12 mg/kg/day</b> q24hr, for 3 days",
+      "style": "--accent:var(--plum); --tint:var(--plum-tint);",
+      "warn": "⚠ Not before 6 months",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.25,
+          "freq": 1,
+          "label_html": "200 mg / 5 mL",
+          "freq_tag": "×1/day"
+        }
+      ]
+    },
+    {
+      "name_html": "Clarithromycin",
+      "chip": "Macrolide",
+      "dose_line_html": "<b>7.5 mg/kg/dose</b> q12hr",
+      "style": "--accent:var(--plum); --tint:var(--plum-tint);",
+      "warn": "⚠ Not before 6 months",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.15,
+          "freq": 2,
+          "label_html": "250 mg / 5 mL",
+          "freq_tag": "×2/day"
+        }
+      ]
+    },
+    {
+      "name_html": "Erythromycin",
+      "chip": "Macrolide",
+      "dose_line_html": "<b>40–50 mg/kg/day</b> divided q6–8hr",
+      "style": "--accent:var(--plum); --tint:var(--plum-tint);",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.4,
+          "freq": 4,
+          "label_html": "125 mg / 5 mL",
+          "freq_tag": "×4/day"
+        },
+        {
+          "factor": 0.2,
+          "freq": 4,
+          "label_html": "250 mg / 5 mL",
+          "freq_tag": "×4/day"
+        }
+      ]
+    }
+  ],
+  "grid-other": [
+    {
+      "name_html": "Metronidazole",
+      "generic": "Flagyl®",
+      "chip": "Antiprotozoal",
+      "dose_line_html": "<b>15–50 mg/kg/day</b> divided q8hr",
+      "style": "--accent:var(--slate); --tint:var(--slate-tint);",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.4,
+          "freq": 3,
+          "label_html": "125 mg / 5 mL",
+          "freq_tag": "×3/day"
+        },
+        {
+          "factor": 0.25,
+          "freq": 3,
+          "label_html": "200 mg / 5 mL",
+          "freq_tag": "×3/day"
+        }
+      ]
+    },
+    {
+      "name_html": "Cotrimoxazole",
+      "generic": "Methprim® (TMP/SMX)",
+      "chip": "Sulfonamide",
+      "dose_line_html": "<b>8–12 mg(TMP)/kg/day</b> divided q12hr",
+      "style": "--accent:var(--slate); --tint:var(--slate-tint);",
+      "warn": "⚠ Not before 2 months",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.5,
+          "freq": 2,
+          "label_html": "TMP 40 / SMX 200 per 5 mL",
+          "freq_tag": "×2/day"
+        }
+      ]
+    },
+    {
+      "name_html": "Nalidixic Acid",
+      "chip": "Quinolone",
+      "dose_line_html": "<b>8.25–13.75 mg/kg/dose</b> q6hr",
+      "style": "--accent:var(--slate); --tint:var(--slate-tint);",
+      "warn": "⚠ Not before 3 months",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.2,
+          "freq": null,
+          "label_html": "250 mg / 5 mL",
+          "freq_tag": "q6hr"
+        },
+        {
+          "factor": 0.16,
+          "freq": null,
+          "label_html": "300 mg / 5 mL",
+          "freq_tag": "q6hr"
+        }
+      ]
+    },
+    {
+      "name_html": "Nitrofurantoin",
+      "chip": "Urinary",
+      "dose_line_html": "<b>5–7 mg/kg/day</b> divided q6hr",
+      "style": "--accent:var(--slate); --tint:var(--slate-tint);",
+      "warn": "⚠ Not before 1 month",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.3,
+          "freq": 4,
+          "label_html": "25 mg / 5 mL",
+          "freq_tag": "×4/day"
+        }
+      ]
+    },
+    {
+      "name_html": "Furazolidone<span class=\"pom-tag\">(POM)</span>",
+      "chip": "Nitrofuran",
+      "dose_line_html": "<b>1.25 mg/kg/dose</b> q6hr, for 3–7 days (7–10 days in giardiasis)",
+      "style": "--accent:var(--slate); --tint:var(--slate-tint);",
+      "warn": "⚠ Not before 1 month",
+      "type": "syrup",
+      "concentrations": [
+        {
+          "factor": 0.375,
+          "freq": 4,
+          "label_html": "50 mg / 15 mL (16.6 mg/5 mL)",
+          "freq_tag": "×4/day"
+        }
+      ]
+    }
+  ],
+  "grid-injection": [
+    {
+      "name_html": "Amoxicillin",
+      "chip": "Vial",
+      "dose_line_html": "<b>Mild–moderate:</b> 25 mg/kg/dose every 8 hours IV (≈75 mg/kg/day)<br/>\n<b>Severe infections:</b> 50 mg/kg/dose every 8 hours IV (≈150 mg/kg/day)",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "500 mg",
+        "1000 mg"
+      ],
+      "vialGroups": [
+        {
+          "label": "Vial: 500 mg",
+          "routes": [
+            {
+              "badge": "IV",
+              "badge_class": "iv",
+              "text": "500 mg in 10 mL WFI or N.S — IV direct or dilute in 100 mL N.S infusion"
+            },
+            {
+              "badge": "IM",
+              "badge_class": "im",
+              "text": "in 2.5 mL N.S or Lidocaine 1%"
+            }
+          ]
+        },
+        {
+          "label": "Vial: 1000 mg",
+          "routes": [
+            {
+              "badge": "IV",
+              "badge_class": "iv",
+              "text": "1000 mg in 20 mL N.S — IV direct or dilute into a 100 mL N.S infusion"
+            },
+            {
+              "badge": "IM",
+              "badge_class": "im",
+              "text": "in 2.5 mL N.S or Lidocaine 1%"
+            }
+          ]
+        }
+      ],
+      "adminNote_html": "<b>Compatible with:</b> N.S 0.9%<br/><b>IV:</b> Inject over 3–4 min; Infuse over 30–60 min"
+    },
+    {
+      "name_html": "Amoxicillin/Clavulanic acid",
+      "generic": "Augmentin®",
+      "chip": "Vial · IV only",
+      "dose_line_html": "<b>0–3 months:</b> 30 mg/kg/dose q12hr<br/>\n<b>3 months–12 years:</b> 30 mg/kg/dose q8hr<br/>\n<b>&gt;12 years:</b> 1.2 g q8hr",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "600 mg",
+        "1.2 g"
+      ],
+      "vialGroups": [
+        {
+          "label": "Vial: 600 mg",
+          "routes": [
+            {
+              "badge": "IV",
+              "badge_class": "iv",
+              "text": "600 mg in 10 mL WFI or N.S — IV direct or dilute in 100 mL N.S"
+            }
+          ]
+        },
+        {
+          "label": "Vial: 1.2 g",
+          "routes": [
+            {
+              "badge": "IV",
+              "badge_class": "iv",
+              "text": "1.2 g in 20 mL WFI or N.S — IV direct or dilute in 100 mL N.S"
+            }
+          ]
+        }
+      ],
+      "adminNote_html": "<b>Compatible with:</b> N.S 0.9%<br/><b>IV:</b> Inject over 3–4 min; Infuse over 30–40 min"
+    },
+    {
+      "name_html": "Ceftriaxone",
+      "chip": "Vial",
+      "dose_line_html": "<b>50–75 mg/kg/day</b> divided q12H",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "500 mg",
+        "1 g"
+      ],
+      "vialGroups": [
+        {
+          "label": "Vial: 500 mg",
+          "routes": [
+            {
+              "badge": "IV",
+              "badge_class": "iv",
+              "text": "500 mg in 5 mL WFI or N.S — IV direct or dilute into a 100 mL N.S infusion"
+            },
+            {
+              "badge": "IM",
+              "badge_class": "im",
+              "text": "in 3.5 mL Lidocaine 1%"
+            }
+          ]
+        },
+        {
+          "label": "Vial: 1 g",
+          "routes": [
+            {
+              "badge": "IV",
+              "badge_class": "iv",
+              "text": "1 g in 10 mL WFI or N.S — IV direct or dilute into a 100 mL N.S infusion"
+            },
+            {
+              "badge": "IM",
+              "badge_class": "im",
+              "text": "in 3.5 mL Lidocaine 1%"
+            }
+          ]
+        }
+      ],
+      "adminNote_html": "<b>Compatible with:</b> NaCl 0.9%, Gluc 5%, Gluc-NaCl<br/><b>IV:</b> Inject over 2–4 min; Infuse over at least 30 min"
+    },
+    {
+      "name_html": "Cefotaxime",
+      "chip": "Vial",
+      "dose_line_html": "<b>150–180 mg/kg/day</b> divided q6–8hr",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "500 mg",
+        "1 g"
+      ],
+      "vialGroups": [
+        {
+          "label": "Vial: 500 mg",
+          "routes": [
+            {
+              "badge": "IV",
+              "badge_class": "iv",
+              "text": "500 mg in 10 mL WFI or N.S — or dilute into a 100 mL N.S infusion"
+            },
+            {
+              "badge": "IM",
+              "badge_class": "im",
+              "text": "in 3 mL Lidocaine 1% or N.S"
+            }
+          ]
+        },
+        {
+          "label": "Vial: 1 g",
+          "routes": [
+            {
+              "badge": "IV",
+              "badge_class": "iv",
+              "text": "1 g in 10 mL WFI or N.S — or dilute into a 100 mL N.S infusion"
+            },
+            {
+              "badge": "IM",
+              "badge_class": "im",
+              "text": "in 3 mL Lidocaine 1% or N.S"
+            }
+          ]
+        }
+      ],
+      "adminNote_html": "<b>Compatible with:</b> NaCl 0.9%, Gluc 5%, Gluc-NaCl<br/><b>IV:</b> Inject over 3–5 min; Infuse over 20–60 min"
+    },
+    {
+      "name_html": "Ceftazidime",
+      "chip": "Vial",
+      "dose_line_html": "<b>90–150 mg/kg/day</b> divided q8hr",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "500 mg",
+        "1 g"
+      ],
+      "vialGroups": [
+        {
+          "label": "Vial: 500 mg",
+          "routes": [
+            {
+              "badge": "IV",
+              "badge_class": "iv",
+              "text": "500 mg in 5 mL WFI — IV direct or dilute in 100 mL N.S"
+            },
+            {
+              "badge": "IM",
+              "badge_class": "im",
+              "text": "in 1.5 mL WFI or Lidocaine 1%"
+            }
+          ]
+        },
+        {
+          "label": "Vial: 1 g",
+          "routes": [
+            {
+              "badge": "IV",
+              "badge_class": "iv",
+              "text": "1 g in 10 mL WFI — IV direct or dilute in 100 mL N.S"
+            },
+            {
+              "badge": "IM",
+              "badge_class": "im",
+              "text": "in 3 mL WFI or Lidocaine 1%"
+            }
+          ]
+        }
+      ],
+      "adminNote_html": "<b>Compatible with:</b> NaCl 0.9%, Gluc 5%, NaCl-Gluc, Ringer's<br/><b>IV:</b> Inject over 3–4 min; Infuse over 20–30 min"
+    },
+    {
+      "name_html": "Cefepime",
+      "chip": "Vial",
+      "dose_line_html": "<b>50 mg/kg/dose</b>, q8–12hr",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "1 g"
+      ],
+      "routes": [
+        {
+          "badge": "IV",
+          "badge_class": "iv",
+          "text": "1 g in 10 mL WFI or N.S — IV direct or dilute into a 100 mL N.S infusion"
+        },
+        {
+          "badge": "IM",
+          "badge_class": "im",
+          "text": "in 3 mL Lidocaine 1% or N.S"
+        }
+      ],
+      "adminNote_html": "<b>Compatible with:</b> IV: NaCl 0.9%, Gluc 5%, Gluc-NaCl; IM: WFI, N.S, Gluc 5%, Lidocaine 0.5% or 1%<br/><b>IV:</b> Inject over 3–4 min; Infuse over 30 min"
+    },
+    {
+      "name_html": "Gentamicin",
+      "chip": "Amp",
+      "dose_line_html": "<b>2–2.5 mg/kg/dose</b>, q8hr",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "80 mg / 2 mL",
+        "20 mg / 2 mL"
+      ],
+      "routes": [
+        {
+          "badge": "IV",
+          "badge_class": "iv",
+          "text": "direct, or diluted in 100 mL N.S"
+        },
+        {
+          "badge": "IM",
+          "badge_class": "im",
+          "text": "direct"
+        }
+      ],
+      "adminNote_html": "<b>Compatible with:</b> NaCl 0.9%, Gluc 5%, Gluc-NaCl<br/><b>IV:</b> Inject over 3–5 min; Infuse over 30–60 min"
+    },
+    {
+      "name_html": "Amikacin",
+      "chip": "Vial & Amp",
+      "dose_line_html": "<b>15–22.5 mg/kg/day</b> divided q8hr",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "500 mg / 2 mL",
+        "100 mg / 2 mL"
+      ],
+      "routes": [
+        {
+          "badge": "IV",
+          "badge_class": "iv",
+          "text": "direct, or diluted in 100 mL N.S"
+        },
+        {
+          "badge": "IM",
+          "badge_class": "im",
+          "text": "direct"
+        }
+      ],
+      "adminNote_html": "<b>Compatible with:</b> NaCl 0.9%, Gluc 5%<br/><b>IV:</b> Inject over 2–3 min; Infuse over 30 min"
+    },
+    {
+      "name_html": "Metronidazole",
+      "chip": "Vial · IV only",
+      "dose_line_html": "<b>22.5–40 mg/kg/day</b> divided q8hr",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "500 mg / 100 mL"
+      ],
+      "routes": [
+        {
+          "badge": "IV",
+          "badge_class": "iv",
+          "text": "IV only — ready-to-use infusion bag, no reconstitution"
+        }
+      ],
+      "adminNote_html": "<b>Compatible with:</b> NaCl 0.9%, Gluc 5%, Gluc-NaCl<br/><b>IV:</b> Infuse over 20 min"
+    },
+    {
+      "name_html": "Vancomycin",
+      "chip": "Vial · IV only",
+      "dose_line_html": "<b>45–60 mg/kg/day</b> divided q6–8hr",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "500 mg",
+        "1000 mg"
+      ],
+      "vialGroups": [
+        {
+          "label": "Vial: 500 mg",
+          "routes": [
+            {
+              "badge": "IV",
+              "badge_class": "iv",
+              "text": "500 mg in 10 mL WFI — then diluted in 100 mL N.S"
+            }
+          ]
+        },
+        {
+          "label": "Vial: 1000 mg",
+          "routes": [
+            {
+              "badge": "IV",
+              "badge_class": "iv",
+              "text": "1000 mg in 20 mL WFI — then diluted in 100 mL N.S"
+            }
+          ]
+        }
+      ],
+      "adminNote_html": "<b>Compatible with:</b> NaCl 0.9%, Gluc 5%<br/><b>IV:</b> Infuse 500 mg over a minimum 60 min and 1000 mg over 2 hr"
+    },
+    {
+      "name_html": "Meropenem",
+      "chip": "Vial · IV only",
+      "dose_line_html": "<b>20 mg/kg/dose</b>, q8hr",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "500 mg",
+        "1000 mg"
+      ],
+      "vialGroups": [
+        {
+          "label": "Vial: 500 mg",
+          "routes": [
+            {
+              "badge": "IV",
+              "badge_class": "iv",
+              "text": "500 mg in 10 mL WFI — or diluted in 100 mL N.S"
+            }
+          ]
+        },
+        {
+          "label": "Vial: 1000 mg",
+          "routes": [
+            {
+              "badge": "IV",
+              "badge_class": "iv",
+              "text": "1000 mg in 20 mL WFI — or diluted in 100 mL N.S"
+            }
+          ]
+        }
+      ],
+      "adminNote_html": "<b>Compatible with:</b> NaCl 0.9%, Gluc 5%<br/><b>IV:</b> Inject over 5 min; Infuse over 15–30 min"
+    },
+    {
+      "name_html": "Imipenem / Cilastatin",
+      "chip": "Vial · IV only",
+      "dose_line_html": "<b>15–25 mg/kg/dose</b>, q6hr",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "500/500 mg"
+      ],
+      "routes": [
+        {
+          "badge": "IV",
+          "badge_class": "iv",
+          "text": "500 mg in 10 mL N.S — then diluted in 100 mL N.S"
+        }
+      ],
+      "adminNote_html": "<b>Compatible with:</b> NaCl 0.9%, Gluc 5%<br/><b>IV:</b> Infuse over 20–30 min"
+    },
+    {
+      "name_html": "Clindamycin",
+      "chip": "Amp",
+      "dose_line_html": "<b>600 mg – 2.7 g/day</b> divided into 2–4 doses",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "600 mg",
+        "300 mg"
+      ],
+      "routes": [
+        {
+          "badge": "IV",
+          "badge_class": "iv",
+          "text": "diluted in 100 mL N.S"
+        },
+        {
+          "badge": "IM",
+          "badge_class": "im",
+          "text": "direct"
+        }
+      ],
+      "adminNote_html": "<b>Compatible with:</b> NaCl 0.9%, Gluc 5%, Gluc-NaCl<br/><b>IV:</b> Infuse 300 mg over 15 min and 600 mg over 30 min"
+    },
+    {
+      "name_html": "Moxifloxacin",
+      "chip": "Vial · IV only",
+      "dose_line_html": "<b>3 months–2 years:</b> 6 mg/kg/dose q12hr (max 200 mg/dose)<br/>\n<b>2–6 years:</b> 5 mg/kg/dose q12hr (max 200 mg/dose)<br/>\n<b>6–12 years:</b> 4 mg/kg/dose q12hr (max 200 mg/dose)<br/>\n<b>12–18 years, &lt;45 kg:</b> 4 mg/kg/dose q12hr (max 200 mg/dose)<br/>\n<b>12–18 years, &gt;45 kg:</b> 400 mg q24hr<br/>\n<b>&gt;18 years:</b> 400 mg q24hr",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "400 mg / 250 mL"
+      ],
+      "routes": [
+        {
+          "badge": "IV",
+          "badge_class": "iv",
+          "text": "direct — ready-to-use infusion bag, no reconstitution"
+        }
+      ],
+      "adminNote_html": "<b>IV:</b> Infuse over 60 min"
+    },
+    {
+      "name_html": "Ciprofloxacin",
+      "chip": "Vial · IV only",
+      "dose_line_html": "<b>10 mg/kg/dose</b>, q8–12hr",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "200 mg / 100 mL"
+      ],
+      "routes": [
+        {
+          "badge": "IV",
+          "badge_class": "iv",
+          "text": "direct — ready-to-use infusion bag, no reconstitution"
+        }
+      ],
+      "adminNote_html": "<b>IV:</b> Infuse over 60 min"
+    },
+    {
+      "name_html": "Levofloxacin",
+      "chip": "Vial · IV only",
+      "dose_line_html": "<b>&gt;5 years:</b> 10 mg/kg/dose q24hr",
+      "style": "--accent:var(--indigo); --tint:var(--indigo-tint);",
+      "type": "injection",
+      "strengthChips": [
+        "500 mg / 100 mL"
+      ],
+      "routes": [
+        {
+          "badge": "IV",
+          "badge_class": "iv",
+          "text": "direct — ready-to-use infusion bag, no reconstitution"
+        }
+      ],
+      "adminNote_html": "<b>Compatible with:</b> NaCl 0.9%, Gluc 5%, Gluc-NaCl<br/><b>IV:</b> Infuse over at least 60 min"
+    }
+  ]
+}
