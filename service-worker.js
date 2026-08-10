@@ -1,7 +1,7 @@
 // DoseKon — offline app-shell cache.
 // Bump this version any time index.html (or any other shipped app-shell file)
 // changes, so returning users pick up the update instead of a stale cache.
-const VERSION = 'v4'; // تم رفعه بعد تحديث firebaseConfig داخل index.html
+const VERSION = 'v5'; // تمت ترقية الإصدار لتحديث التخزين المؤقت
 const SHELL_CACHE = `dosekon-shell-${VERSION}`;
 const FONT_CACHE = 'dosekon-fonts';
 const DATA_CACHE = 'dosekon-data';
