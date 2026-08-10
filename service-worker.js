@@ -1,7 +1,7 @@
 // DoseKon — offline app-shell cache.
 // Bump this version any time index.html (or any other shipped app-shell file)
 // changes, so returning users pick up the update instead of a stale cache.
-const VERSION = 'v5'; // تمت ترقية الإصدار لتحديث التخزين المؤقت
+const VERSION = 'v5'; // تم رفعه بعد تحديث التخزين المؤقت ليتضمن بيانات الأدوية
 const SHELL_CACHE = `dosekon-shell-${VERSION}`;
 const FONT_CACHE = 'dosekon-fonts';
 const DATA_CACHE = 'dosekon-data';
@@ -10,6 +10,7 @@ const APP_SHELL = [
   './',
   './index.html',
   './manifest.json',
+  './assets/appdata.json',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/icon-512-maskable.png',
